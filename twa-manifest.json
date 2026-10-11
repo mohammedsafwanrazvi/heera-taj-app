@@ -1,0 +1,20 @@
+{
+  "packageId": "com.pos.heerataj",
+  "host": "pos.zafranizeera.com",
+  "name": "Heera Taj ",
+  "launcherName": "Heera Taj ",
+  "themeColor": "#000000",
+  "navigationColor": "#000000",
+  "backgroundColor": "#ffffff",
+  "startUrl": "/",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "enableNotifications": true,
+  "signingKey": {
+    "path": "./release.jks",
+    "alias": "upload"
+  },
+  "minSdkVersion": 24,
+  "targetSdkVersion": 34,
+  "enabled": true
+}
