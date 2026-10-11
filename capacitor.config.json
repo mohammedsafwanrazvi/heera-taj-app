@@ -1,0 +1,27 @@
+{
+  "appId": "com.pos.heerataj",
+  "appName": "Heera Taj ",
+  "webDir": "www",
+  "server": {
+    "url": "https://pos.zafranizeera.com/settings",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#ffffff",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#000000",
+      "style": "DARK"
+    }
+  }
+}
